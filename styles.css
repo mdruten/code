@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+/* header and body styles */
+
+html {
+   background: rgb(246, 174, 176) url(squareminon.jpg);
+   background-size: 3%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   height: 100%;
+ }
+ 
+body {
+   background-color: white;
+   box-shadow: rgb(51, 51, 51) 20px 0px 40px,  
+   rgb(51, 51, 51) -20px 0px 40px;
+   min-height: 100%;  
+   margin: 0px auto;
+   min-width: 320px;
+   max-width: 1020px;  
+   width: 100%;
+}
+   
+.headerimage {
+   overflow: hidden;
+   width: 100%;
+   height: 300px;
+}
+
+.headertitle {
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 65px;
+   font-style: oblique;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
+ }
+
+
+.meetminions{
+   display: block;
+   text-align: center;
+   background-color: rgb(60, 0, 60);
+   color: white;
+   padding: 20px;
+   font-size: 35px;
+
+}
+
+/* info styles */
+
+.info div {
+   display: flex;
+   border: 2px solid red;
+   border-radius: 10px;
+   min-width: 30%;
+   margin: 10px;
+   background-color: aqua;
+}
+
+.info{
+   display: flex wrap;
+   justify-content: center;
+
+}
